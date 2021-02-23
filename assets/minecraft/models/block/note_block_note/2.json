@@ -1,0 +1,6 @@
+{
+	"parent": "block/note_block_note/main",
+	"textures": {
+		"front": "block/note_block_note/2"
+	}
+}

@@ -1,0 +1,250 @@
+{
+	"multipart": [
+		{
+			"when": {
+				"OR": [
+					{
+				"north": "side|up",
+				"south": "side|up",
+				"east": "side|up",
+				"west": "side|up"
+					},
+					{
+				"north": "none",
+				"south": "none",
+				"east": "none",
+				"west": "none"
+					}
+				]
+			},
+			"apply": {
+				"model": "minecraft:block/redstone_dust_dot"
+			}
+		},
+		{
+			"when": {
+				"north": "side|up"
+			},
+			"apply": {
+				"model": "minecraft:block/redstone_dust_side"
+			}
+		},
+		{
+			"when": {
+				"south": "side|up"
+			},
+			"apply": {
+				"model": "minecraft:block/redstone_dust_side",
+				"y": 180
+			}
+		},
+		{
+			"when": {
+				"east": "side|up"
+			},
+			"apply": {
+				"model": "minecraft:block/redstone_dust_side",
+				"y": 90
+			}
+		},
+		{
+			"when": {
+				"west": "side|up"
+			},
+			"apply": {
+				"model": "minecraft:block/redstone_dust_side",
+				"y": 270
+			}
+		},
+		{
+			"when": {
+				"north": "up"
+			},
+			"apply": {
+				"model": "minecraft:block/redstone_dust_up"
+			}
+		},
+		{
+			"when": {
+				"south": "up"
+			},
+			"apply": {
+				"model": "minecraft:block/redstone_dust_up",
+				"y": 180
+			}
+		},
+		{
+			"when": {
+				"east": "up"
+			},
+			"apply": {
+				"model": "minecraft:block/redstone_dust_up",
+				"y": 90
+			}
+		},
+		{
+			"when": {
+				"west": "up"
+			},
+			"apply": {
+				"model": "minecraft:block/redstone_dust_up",
+				"y": 270
+			}
+		}
+	]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+---------
+
+
+
+
+
+
+
+
+
+{
+  "multipart": [{
+      "when": {
+        "north": "side|up"
+        "south": "side|up"
+        "east": "none"
+        "west": "none"
+      },
+      "apply": {
+        "model": "minecraft:block/redstone_dust_line"
+      }
+    },
+    {
+      "when": {
+        "north": "none"
+        "south": "none"
+        "east": "side|up"
+        "west": "side|up"
+      },
+      "apply": {
+        "model": "minecraft:block/redstone_dust_line",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "north": "none"
+        "south": "side|up"
+        "east": "none"
+        "west": "side|up"
+      },
+      "apply": {
+        "model": "minecraft:block/redstone_dust_corner",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "north": "none"
+        "south": "side|up"
+        "east": "side|up"
+        "west": "none"
+      },
+      "apply": {
+        "model": "minecraft:block/redstone_dust_corner",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "north": "side|up"
+        "south": "none"
+        "east": "none"
+        "west": "side|up"
+      },
+      "apply": {
+        "model": "minecraft:block/redstone_dust_corner",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "north": "side|up"
+        "south": "none"
+        "east": "side|up"
+        "west": "side|up"
+      },
+      "apply": {
+        "model": "minecraft:block/redstone_dust_corner",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "north": "none"
+        "south": "none"
+        "east": "none"
+        "west": "none"
+      },
+      "apply": {
+        "model": "minecraft:block/redstone_dust_dot",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "north": "side|up"
+        "south": "side|up"
+        "east": "side|up"
+        "west": "side|up"
+      },
+      "apply": {
+        "model": "minecraft:block/redstone_dust_cross",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "north": "up"
+      },
+      "apply": {
+        "model": "minecraft:block/redstone_dust_up"
+      }
+    },
+    {
+      "when": {
+        "south": "up"
+      },
+      "apply": {
+        "model": "minecraft:block/redstone_dust_up",
+        "y": 180
+      }
+    },
+    {
+      "when": {
+        "east": "up"
+      },
+      "apply": {
+        "model": "minecraft:block/redstone_dust_up",
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "west": "up"
+      },
+      "apply": {
+        "model": "minecraft:block/redstone_dust_up",
+        "y": 270
+      }
+    }
+  ]
+}
